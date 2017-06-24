@@ -1,11 +1,12 @@
 {
   "name": "jsbuild-cli",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "description": "A CLI that attempts to simplify building JavaScript projects.",
   "preferGlobal": true,
   "bin": {
-    "jbl": "bin/jsbuild",
-    "jbl-dev": "bin/jsbuild-dev"
+    "jsbuild": "bin/jsbuild",
+    "jsbuild-build": "bin/jsbuild-build",
+    "jsbuild-dev": "bin/jsbuild-dev"
   },
   "repository": {
     "type": "git",
