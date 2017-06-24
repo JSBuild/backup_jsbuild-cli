@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('JSBuild Build');
+const build = require('../lib/build');
+
+build();

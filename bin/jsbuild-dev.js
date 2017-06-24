@@ -1,3 +1,5 @@
 #!/usr/bin/env node
 
-console.log('JSBuild Dev');
+const build = require('../lib/dev');
+
+dev();
