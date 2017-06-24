@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const build = require('../lib/dev');
+const dev = require('../lib/dev');
 
 dev();
