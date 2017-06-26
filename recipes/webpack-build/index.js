@@ -1,4 +1,4 @@
-const base = require('./base');
+const base = require('../webpack-base');
 
 module.exports = function() {
   base.config.action.name = 'Build';

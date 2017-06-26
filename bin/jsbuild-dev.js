@@ -1,5 +1,5 @@
 #!/usr/bin/env node
 
-const dev = require('../lib/dev');
+const dev = require('../recipes/webpack-dev');
 
 dev();
